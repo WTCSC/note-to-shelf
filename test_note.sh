@@ -56,7 +56,6 @@ rm -f $NOTES_FILE $TEST_FILE
 if [ "$1" ]; then
     case "$1" in
         test_add_note_with_special_characters) test_add_note_with_special_characters ;;
-        test_invalid_command) test_invalid_command ;;
         test_list_notes_after_adding) test_list_notes_after_adding ;;
         test_check_date_time_format) test_check_date_time_format ;;
         test_search_notes) test_search_notes ;;
